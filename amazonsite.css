@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+html{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+/*      NAVBAR       */
+
+.navbar{
+    height:60px;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("assests/amazon\ logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/*   BOX 2   */
+.deli{
+    font-size:0.75rem;
+    color:#CCCCCC;
+    margin-left:15px;
+}
+.loc{
+    font-size:1rem;
+    margin-left: 3px;
+}
+.location{
+    display:flex;
+    align-items: center;
+}
+.location i{
+    font-size: 18px;
+}
+
+/* BOX 3  */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    margin-left: 10px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.all{
+    width: 50px;
+    background-color: #E6E6E6;
+    border-top-left-radius:10% ;
+    border-bottom-left-radius: 10%;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+}
+.sear{
+    width:100%;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    
+    border: none;
+}
+.icon{
+    width: 45px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #febd68;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size: 1.2rem;
+}
+/*Lang box*/
+.lang{
+    height: 33px;
+    width: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.usa{
+    background-image: url("assests/united-states.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 16px;
+    width:20px;   
+}
+
+/* Account and list box*/
+
+.nav-first{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* cart */
+.nav-cart{
+    display:flex;
+    align-items: end;
+}
+.cart{
+    font-size: 25px;
+}
+.cart-t{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**    Panel     **/
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color:white;
+    font-size: 14px;
+    align-items: center;
+}
+.menu-bar{
+    width: 60px;
+    padding-left: 9px;
+    font-weight: 700;
+}
+.menu-bar i{
+    font-size: 17px;
+}
+.deals-p p{
+    display: inline;
+    padding:8px 9px 8px 9px;
+}
+
+                                    /** HERO SECTION**/
+    .hero-section{
+        background-image: url("assests/hero-img.jpg");
+        background-size: cover;
+        height: 350px;
+    }
+    .shop-section1{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       background-color: #bae0b7;
+    }
+    .box{
+        height: 380px;
+        width: 22%;
+        background-color: white;
+        margin-top:20px;
+        padding: 20px 0px 15px;
+    }
+    .box-content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box-content a{
+        font-size: 13px;
+        text-decoration: none;
+        color: #2161a1;
+        }
+    
+    .box-i{
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 95%;
+            margin-top:15px;
+            margin-bottom:20px;
+        }
+    .box-content h2{
+            font-size:21px;
+        }
+
+/*  Footer  */
+footer{
+    margin-top: 15px;
+}
+.fpanel{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.fpanel a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.fpanel-2{
+    background-color: #151f29;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kk{
+    width: 50px;
+}
+.fpanel-2 ul{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.fpanel-2 p{
+    font-weight: 700;
+}
+.fpanel-2 a{
+    display: block;
+    margin-top: 15px;
+    color: #dddddd;
+    font-size: 0.85rem;
+}
+.fpanel-3{
+    margin-top: 1px;
+    background-color: #151f29;
+    color: white;
+    height: 100px;
+    display: flex;
+    padding: 10px 9.5px;
+    justify-content: space-around;
+}
+.fimg{
+    background-image: url("assests/logoo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:30px;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+.enli{
+    background-color: transparent;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    height:30px;
+    width: 100px;
+    margin-top: 25px;
+    border: 1px solid white;
+    font-size:0.85rem;
+}
+.USD{
+    background-color: transparent;
+    margin-left: 5px;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    height:30px;
+    width: 200px;
+    margin-top: 25px;
+    border: 1px solid white;
+    font-size:0.85rem;
+}
+.USA{
+    background-color: transparent;
+    margin-left: 5px;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    height:30px;
+    width: 200px;
+    margin-top: 25px;
+    border: 1px solid white;
+    font-size:0.85rem;
+}
+.fpanel-4{
+    background-color: #131a22;
+    color:white;
+    height: 90px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.pages a{
+    margin-left: 8px;
+}
+.copyr{
+    padding-top: 5px;
+}
