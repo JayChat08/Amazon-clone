@@ -177,7 +177,7 @@ html{
         }
     
     .box-i{
-            background-size: cover;
+            background-size: contain;
             background-repeat: no-repeat;
             height: 300px;
             width: 95%;
